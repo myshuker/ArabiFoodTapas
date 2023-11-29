@@ -1,6 +1,7 @@
 {
   "name": "arabi-food",
   "version": "0.1.0",
+  "homepage":"https://myshuker.github.io/ArabiFoodTapas",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build ",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
